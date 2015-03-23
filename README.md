@@ -26,6 +26,8 @@ Now You can use the ebuilds like the upstream ones.
 1. Put `SYNC=""` into Your `make.conf` if it is defaulted otherwise.
 1. Check the mirror, now given in `/etc/portage/repos.conf/gentoo.conf`.
 1. `emerge -1 portage`
+1. remove obsolete layman config from `make.conf`
+1. remove obsolete `PORTDIR_OVERLAY` definitions
 
 Try a `emerge --sync` and resolve any remaining issues.
 
