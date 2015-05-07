@@ -1,0 +1,9 @@
+On changes to an ebuild (or adopting an existing) the "Manifest" file must be recreated.
+
+Do it this way (see: http://linuxreviews.org/gentoo/ebuilds/)
+
+cd net-misc/rdist
+ebuild *.ebuild digest
+
+
+
